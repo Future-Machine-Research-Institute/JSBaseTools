@@ -1,0 +1,24 @@
+{
+  "name": "@future-machine-research-institute/jsbasetools",
+  "version": "1.0.0",
+  "description": "JavaScript基础工具包",
+  "main": "index.js",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Future-Machine-Research-Institute/JSBaseTools.git"
+  },
+  "author": "arrosev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Future-Machine-Research-Institute/JSBaseTools/issues"
+  },
+  "homepage": "https://github.com/Future-Machine-Research-Institute/JSBaseTools#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1"
+  }
+}
