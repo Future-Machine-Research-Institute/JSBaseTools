@@ -1,6 +1,6 @@
 {
   "name": "@future-machine-research-institute/jsbasetools",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "JavaScript基础工具包",
   "main": "index.js",
   "private": "true",
@@ -22,9 +22,5 @@
   },
   "peerDependencies": {
     "bcryptjs": "^2.4.3"
-  },
-  "exports": { 
-    "require": "./cjs/edcryption.js",
-    "import": "./mjs/edcryption.js" 
-}
+  }
 }
