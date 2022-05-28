@@ -1,12 +1,12 @@
 {
   "name": "@future-machine-research-institute/jsbasetools",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "JavaScript基础工具包",
-  "main": "edcryption.js",
+  "main": "index.js",
   "private": "true",
   "type": "module",
   "scripts": {
-    "start": "node edcryption.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/Future-Machine-Research-Institute/JSBaseTools#readme",
   "dependencies": {
-    "bcrypt": "^5.0.1"
+    "bcryptjs": "^2.4.3"
   },
-  "peerDependencies":{
-    "bcrypt": "^5.0.1"
+  "peerDependencies": {
+    "bcryptjs": "^2.4.3"
   }
 }
