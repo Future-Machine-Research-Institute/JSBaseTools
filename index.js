@@ -1,4 +1,4 @@
-import EDCryptionShareInstance from "./edcryption.js"
+const EDCryptionShareInstance = require("./cjs/edcryption")
 const saltRounds = 10
 const myPlaintextPassword = 's0/\/\P4$$w0rD'
 const someOtherPlaintextPassword = 'not_bacon'
