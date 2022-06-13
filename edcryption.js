@@ -1,9 +1,15 @@
 const bcrypt = require('bcryptjs');
+const crypto = require('crypto')
+const md5 = crypto.createHash('md5')
 
 class EDCryption {
 
     constructor() {
         
+    }
+
+    md5HashSync(rawString) {
+        return md5.update(rawString, 'utf8').digest('hex')
     }
 
     bcryptHashSync(rawString, saltRounds = 10) {
