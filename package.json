@@ -1,6 +1,6 @@
 {
   "name": "@future-machine-research-institute/jsbasetools",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "JavaScript基础工具包",
   "main": "index.js",
   "private": "true",

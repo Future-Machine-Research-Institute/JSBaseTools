@@ -23,7 +23,7 @@ class EDCryption {
     async bcryptHashAsync(rawString, saltRounds = 10, callback) {
         if(callback && typeof callback === "function") {
             bcrypt.hash(rawString, saltRounds, (error, data) => {
-                return callback(error, data);
+                callback(error, data);
             })
         } else {
             return new Promise(async (resolve, reject) => {
